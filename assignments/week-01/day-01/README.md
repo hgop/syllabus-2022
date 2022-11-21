@@ -127,6 +127,7 @@ repository:
 .
 ├── scripts
 │   └── verify_local_dev_environment.sh
+├── Justfile
 └── assignments
     └── day01
         └── answers.md
