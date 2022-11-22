@@ -229,6 +229,8 @@ docker container stop 1fa4ab2cf395
 it's usually enough to write the first three characters or so, i.e.\
 `docker container stop 1fa`
 
+## Part 3
+
 ### Share your image
 
 To demonstrate the portability of what we just created, let’s upload our built
