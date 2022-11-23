@@ -234,7 +234,7 @@ yamls="$(ls -1 "${DIRECTORY}")"
 
 for yaml in ${yamls}; do
     cat "${DIRECTORY}/${yaml}"
-    echo "---"
+    echo $'\n---'
 done
 
 exit 0
