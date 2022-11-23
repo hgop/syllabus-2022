@@ -1,6 +1,6 @@
 # Week 1 Assignment
 
-**Turn in your GitHub repository URLs into Canvas solo or in pairs (please add `kthorri` and `fanneyyy` as collaborators)**
+**Turn in your GitHub repository URLs into Canvas solo or in pairs (please add `kthorri`, `ironpeak` and `fanneyyy` as collaborators)**
 
 repository:
 
