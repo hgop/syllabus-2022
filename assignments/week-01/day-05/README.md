@@ -45,7 +45,7 @@ repository:
     │   │   ├── globals.css
     │   │   └── Home.module.css
     │   ├── tsconfig.json
-    │   └── yarn.lock
+    │   └── package-lock.json
     └── httpbin
         └── k8s
             ├── deployment.template.yaml
