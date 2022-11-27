@@ -2,7 +2,7 @@
 
 ## The Labs
 
-The lab exercises will be introduced each day. To be able to assist as many students as possible we encourage you to submit issues on the [course's Github repository](https://github.com/hgop/syllabus-2021/issues) when you encounter problems.
+The lab exercises will be introduced each day. To be able to assist as many students as possible we encourage you to submit issues on the [course's Github repository](https://github.com/hgop/syllabus-2022/issues) when you encounter problems.
 
 If you can we encourage you to answer issues from other students, it will count towards the bonus part of your grade.
 
@@ -127,6 +127,7 @@ repository:
 .
 ├── scripts
 │   └── verify_local_dev_environment.sh
+├── Justfile
 └── assignments
     └── day01
         └── answers.md

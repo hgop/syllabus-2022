@@ -6,7 +6,7 @@ Today we will be setting up MicroK8s in an AWS EC2 instance. Which will host you
 
 ## Step 1 - Request Instance
 
-[Request EC2 Instance](https://github.com/hgop/syllabus-2021/issues/10), we will create an AWS EC2 instance for you and setup a CNAME to route traffic using your teamname.
+[Request EC2 Instance](https://github.com/hgop/syllabus-2022/issues/1), we will create an AWS EC2 instance for you and setup a CNAME to route traffic using your teamname.
 
 ## Step 2 - Kubernetes
 
