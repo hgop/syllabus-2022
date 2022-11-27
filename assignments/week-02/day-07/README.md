@@ -565,7 +565,7 @@ pytest --cov=connect4 tests/unit
 ```
 
 ### Part 5 - More tests and Implementation
-
+- Finish the server game logic (TODOs)
 - Create unit tests for all the server code except (`app.py`, `database.py` and `views.py`).
 
 ## Handin
