@@ -113,7 +113,7 @@ This user must also own the server process.
 2021-11-18 19:43:36.220 UTC [1] LOG:  database system is ready to accept connections
 ```
 
-## Step 3 - Server Pipeline
+### Step 3 - Server Pipeline
 
 Integrate the server into your pipeline, make sure that you use a separate docker repository (not account) for your server docker images.
 
