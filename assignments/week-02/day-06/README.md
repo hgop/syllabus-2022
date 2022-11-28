@@ -171,7 +171,7 @@ kubernetes yaml template files for that service.
 
 Example:
 
-`CONNECT4_CLIENT_DATABASE_PASSWORD` substitutes `{{DATABASE_PASSWORD}}` in the connect4-client k8s template files.
+`CONNECT4_SERVER_DATABASE_PASSWORD` substitutes `{{DATABASE_PASSWORD}}` in the connect4-client k8s template files.
 
 It uses the tag argument to replace the deployment's image tag.
 
