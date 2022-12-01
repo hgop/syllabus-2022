@@ -127,7 +127,7 @@ class InitializedGame:
         self.playerTwoId = playerTwoId
 
 def initialize_game() -> InitializedGame:
-    response = requests.post(config.API_URL + "/create_game")
+    response = requests.post(config.API_URL + "/create_game", json={})
     assert response.status_code == 201
 
     json = response.json()
