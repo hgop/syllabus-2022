@@ -169,6 +169,6 @@ You should store all the source files in your repository:
 
 Your `README.md` file should include the URL to the instances running:
 - The game client `connect4.{{team-name}}.hgopteam.com`
-- The game server `connect-four-server-production.{{team-name}}.hgopteam.com`
+- The game server `connect4-server.{{team-name}}.hgopteam.com`
 
 If you did anything extra, you should list it up in the `README.md` if you want us to take it into account.
