@@ -41,15 +41,15 @@ Test your capacity test against your production url:
 API_URL=http://connect4-server.{{team-name}}.hgopteam.com/ pytest ./src/tests/capacity
 ~~~
 
-### Part 3 - Deploy capacity environment
+### Part 2 - Deploy capacity environment
 
 Setup create-capacity-environment like you did for acceptance in day 8.
 
-### Part 4 - Run capacity tests
+### Part 3 - Run capacity tests
 
 Setup capacity-test like you did for acceptance in day 8.
 
-### Part 5 - Create another test
+### Part 4 - Create another test
 
 Create a test that spawns N number of threads that run X amount of games:
 
@@ -128,7 +128,7 @@ Try running the test locally against your capacity environment.\
 Notice the `-s` flag which tells pytest to show stdout.
 
 ~~~bash
-export API_URL=https://connect4-server.capacity.dreamteam.hgopteam.com/
+export API_URL=https://connect4-server.capacity.{{team-name}}.hgopteam.com/
 pytest -s ./src/tests/capacity/test_parallel.py
 ~~~
 
@@ -168,14 +168,14 @@ Run the previous test cases again and take those measurements as well.
 
 Do you see any improvements?
 
-### Part 6 - Replicas
+### Part 5 - Replicas
 
-Change `deployment.yaml.template` so that `spec.replicas` can be configured for each environment:\
+Change `deployment.template.yaml` so that `spec.replicas` can be configured for each environment:\
 `production: 2, acceptance: 1, capacity: 3`
 
 Hint: `CONNECT4_SERVER_REPLICAS`
 
-### Part 7 - Configure
+### Part 6 - Configure
 
 Pick some sensible values for N, X and have it run as part of your capacity tests, it should:
 
