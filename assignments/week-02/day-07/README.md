@@ -211,7 +211,7 @@ NOTE: You can also remove rules that you don't agree with, e.g. if we don't like
 
 ## Part 2 - Connect4 Server
 
-### Part 1 - Add a linter to our server
+### Step 1 - Add a linter to our server
 
 You will need to setup a python executor for version 3.8
 
@@ -238,7 +238,7 @@ And add a lint job:
 
 Remember to add lint to the config workflow.
 
-### Part 2 - Setup unit tests
+### Step 2 - Setup unit tests
 
 Add `pytest` to your dev requirements.
 
@@ -538,7 +538,7 @@ pytest ./src/tests/unit
 
 Your server is missing some game logic, so your test will fail. Still you should move on to the next step and add the game logic after you've added the test job to your CI pipeline.
 
-### Part 3 - Setup unit tests job in CircleCI
+### Step 3 - Setup unit tests job in CircleCI
 
 ```yaml
   python:
@@ -554,7 +554,7 @@ Your server is missing some game logic, so your test will fail. Still you should
       - run: [TODO run pytest]
 ```
 
-### Part 4 - Coverage
+### Step 4 - Coverage
 
 Add `pytest-cov` package to your dev requirements.
 
@@ -564,7 +564,7 @@ Now you can see the code coverage of your tests using:
 pytest --cov=connect4 tests/unit
 ```
 
-### Part 5 - More tests and Implementation
+### Step 5 - More tests and Implementation
 - Finish the server game logic (TODOs)
 - Create unit tests for all the server code except (`app.py`, `database.py` and `views.py`).
 
