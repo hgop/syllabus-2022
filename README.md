@@ -30,7 +30,7 @@ The 3 projects are a continuation of the previous one so if students are unable 
 | **Project**                                                    | [Pipeline](/assignments/week-02/day-06/README.md)                     | [Unit Tests](/assignments/week-02/day-07/README.md)                     | [Acceptance Tests](/assignments/week-02/day-08/README.md)              |    [Capacity Tests](/assignments/week-02/day-09/README.md)                                                                    | [Turn in Project for week 2](/assignments/week-02/day-10/README.md)|
 | **Schedule**                                                          | 13:30-15:30 In a classroom and via Zoom | 13:30-15:30 In a classroom and via Zoom | 13:30-15:30 In a classroom and via Zoom | 13:30-15:00 In a classroom and via Zoom  |                        |
  
-## Week 2
+## Week 3
 ### Starts Monday - 5. December
  
 |                                                                      | mon                                                                     | tue                                                                                        | wed                                                                                                                                                                             | thu           | fri                              |
