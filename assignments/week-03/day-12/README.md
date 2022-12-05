@@ -43,8 +43,16 @@ We also need to add cypress as a dependency to our project: `npm install --save-
 Since we need to deploy a seperate instance of our client to run our tests against please copy/update the following files/folders from [this repository](https://github.com/hgop/2022-week2-base).
 ```
 cypress <- this folder contains the e2e test definition
-cypress.json <- This file needs to include the URL for your application
 ```
+Add this json file in root as `cypress.json`:
+```
+{
+    "baseUrl": "http://connect4.{{YOUR_TEAM}}.hgopteam.com",
+    "viewportWidth": 1000,
+    "viewportHeight": 900
+}
+```
+
 When you've finished adding all the code and adding a package.json script to run the cypress tests `"cypress": "cypress open"` you should be able to run the tests in a browser in your local environment, like so:
 
 ```bash
