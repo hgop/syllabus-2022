@@ -36,7 +36,7 @@ We are going to use Cypress to create our E2E tests.
 
 > It is built on Node.js and comes packaged as an npm module. As its basis is Node.js, it uses JavaScript for writing tests. But 90% of coding can be done using Cypress inbuilt commands, which are easy to understand.
 
-Setting up Cypress is very simple, but since we're not creating a separate cypress project for our test you can just copy/paste the cypress folder from the connect-four-client-base project, along with the cypress.json file
+Setting up Cypress is very simple, but since we're not creating a separate cypress project for our test you can just copy/paste the cypress folder from the connect-four-client-base project
 
 We also need to add cypress as a dependency to our project: `npm install --save-dev --save-exact cypress`
 
