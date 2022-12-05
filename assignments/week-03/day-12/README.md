@@ -44,7 +44,7 @@ Since we need to deploy a seperate instance of our client to run our tests again
 ```
 cypress <- this folder contains the e2e test definition
 ```
-Add this json file in root as `cypress.json`:
+Add this json file to the root of the client folder `cypress.json`:
 ```
 {
     "baseUrl": "http://connect4.{{YOUR_TEAM}}.hgopteam.com",
